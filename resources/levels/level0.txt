@@ -1,0 +1,66 @@
+10000 10000 -1 0	{width, height, nextLevel, nextLevel’s planet} {V(orbit) = sqrt(GM/r)}
+
+
+//Sun       type,   xPos,   yPos,   mass,   radius, R,  G,  B,  filePath				//type:(0=player, 1=enemy, 2=movingPlanet, 3=stationaryPlanet, 4=planetLevelPortal)
+
+	    3       0.0     0.0     100     500	    255 100 025 {sun.gif}	
+
+
+
+
+//Mercury   type,   xPos,   yPos,   xV,     yV,     mass,   radius, R,  G,  B,  filePath		//type:(0=player, 1=enemy, 2=movingPlanet, 3=stationaryPlanet, 4=planetLevelPortal)
+
+	    2       1000    0.0     0.0     100     1      80      000 153 153 {mercury.gif}
+
+
+
+//MercP     type,   nextLevel,      additionalCollisionRadius						// add this after a planet, to add a next level for it
+
+	    4       1		    0
+
+
+
+
+//Venus     type,   xPos,   yPos,   xV,     yV,     mass,   radius, R,  G,  B,  filePath		//type:(0=player, 1=enemy, 2=movingPlanet, 3=stationaryPlanet, 4=planetLevelPortal)
+
+	    2       -2000    0.0    0.0     -70.71  1      80      202 164 061 {venus.gif}
+
+
+
+//VenusP    type,   nextLevel,      additionalCollisionRadius						// add this after a planet, to add a next level for it
+
+
+	    4       2		    0
+
+
+
+
+//Earth     type,   xPos,   yPos,   xV,     yV,     mass,   radius, R,  G,  B,  filePath		//type:(0=player, 1=enemy, 2=movingPlanet, 3=stationaryPlanet, 4=planetLevelPortal)
+
+	    2           0 3000     -57.735 0.0       1      80      053 154 255 {earth.gif}
+
+
+
+//EarthP    type,   nextLevel,      additionalCollisionRadius						// add this after a planet, to add a next level for it
+
+
+	    4       3		    0
+
+
+
+//Mars      type,   xPos,   yPos,   xV,     yV,     mass,   radius, R,  G,  B,  filePath		//type:(0=player, 1=enemy, 2=movingPlanet, 3=stationaryPlanet, 4=planetLevelPortal)
+
+	    2           0  -4000   50  0         1      80      205 070 015 {mars.gif}
+
+
+
+//MarsP     type,   nextLevel,      additionalCollisionRadius						// add this after a planet, to add a next level for it
+
+
+	    4       4		    0
+
+
+//Player    type,   xPos,   yPos,   xV,     yV,     width,  height, R,  G,  B				//type:(0=player, 1=enemy, 2=movingPlanet, 3=stationaryPlanet, 4=planetLevelPortal)
+
+	    0       1000.0  1000.0  0       0       30      60      000 255 000
+

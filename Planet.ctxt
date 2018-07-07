@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Planet
+comment1.params=xPos\ yPos\ xV\ yV\ mass\ radius\ filePath\ mapCol
+comment1.target=Planet(double,\ double,\ double,\ double,\ int,\ int,\ java.lang.String,\ java.awt.Color)
+comment1.text=\ precondition\ \:\ filePath\ is\ the\ ImageIcon,\ relative\ to\ "resources/actor_gifs/planet_gifs/"\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ mapCol\ is\ the\ color\ of\ the\ planet's\ icon\ on\ the\ map\n\ postcondition\:\ constructs\ a\ circular\ actor\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=g
+comment3.target=void\ paintComponent(java.awt.Graphics)
+comment4.params=c
+comment4.target=void\ recalculateRelativeScreenLocation(Camera)
+comment5.params=
+comment5.target=int\ getMass()
+comment6.params=
+comment6.target=int\ getRadius()
+numComments=7

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Camera
+comment1.params=levelWidth\ levelHeight
+comment1.target=Camera(int,\ int)
+comment2.params=a
+comment2.target=void\ updateLocation(Actor)
+comment3.params=
+comment3.target=void\ checkInBounds()
+comment4.params=
+comment4.target=double\ getXPos()
+comment5.params=
+comment5.target=double\ getYPos()
+numComments=6

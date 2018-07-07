@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Player
+comment1.params=xPos\ yPos\ xV\ yV\ width\ height\ mapCol
+comment1.target=Player(double,\ double,\ double,\ double,\ double,\ double,\ java.awt.Color)
+comment10.params=g
+comment10.target=void\ paintTurretBase(java.awt.Graphics)
+comment11.params=g
+comment11.target=void\ paintTurretTop(java.awt.Graphics)
+comment12.params=g
+comment12.target=void\ paintCrossHairs(java.awt.Graphics)
+comment2.params=
+comment2.target=Bullet\ shoot()
+comment3.params=x\ y\ c
+comment3.target=void\ updateMouseLocation(int,\ int,\ Camera)
+comment4.params=key\ press
+comment4.target=void\ setPress(char,\ boolean)
+comment5.params=xPos\ yPos\ xV\ yV\ width\ height\ col
+comment5.target=void\ setVariables(double,\ double,\ double,\ double,\ double,\ double,\ java.awt.Color)
+comment6.params=p
+comment6.target=void\ recalculateAcceleration(java.util.ArrayList)
+comment7.params=time
+comment7.target=void\ recalculateVelocity(long)
+comment8.params=g
+comment8.target=void\ paintComponent(java.awt.Graphics)
+comment9.params=g
+comment9.target=void\ paintComponentVertical(java.awt.Graphics)
+numComments=13

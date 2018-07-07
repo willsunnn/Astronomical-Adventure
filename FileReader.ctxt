@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=FileReader
+comment1.params=player
+comment1.target=FileReader(Player)
+comment2.params=
+comment2.target=void\ analyzeLevelFiles()
+comment3.params=file\ levelNum
+comment3.target=Level\ createLevel(java.io.File,\ int)
+comment4.params=n
+comment4.target=Level\ getLevel(int)
+numComments=5

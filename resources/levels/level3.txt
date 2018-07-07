@@ -1,0 +1,21 @@
+2000 2000 0 3	{width, height, nextLevel, nextLevel’s planet} {V(orbit) = sqrt(GM/r)}
+
+//Earth     type,   xPos,   yPos,   mass,   radius, R,  G,  B,  filePath				//type:(0=player, 1=enemy, 2=movingPlanet, 3=stationaryPlanet, 4=planetLevelPortal, 5=boss)
+
+	    3       0.0     0.0     100     400     053 154 255 {earth.gif}	
+
+//Moon      type,   xPos,   yPos,   xV,     yV,     mass,   radius, R,  G,  B,  filePath		//type:(0=player, 1=enemy, 2=movingPlanet, 3=stationaryPlanet, 4=planetLevelPortal, 5=boss)
+	    2       0       -700    119.5   0.0     10      80      188 188 188 {moon.gif}	
+
+//Boss 	    type											//type:(0=player, 1=enemy, 2=movingPlanet, 3=stationaryPlanet, 4=planetLevelPortal, 5=boss)
+	    5
+
+
+
+//Player    type,   xPos,   yPos,   xV,     yV,     width,  height, R,  G,  B				//type:(0=player, 1=enemy, 2=movingPlanet, 3=stationaryPlanet, 4=planetLevelPortal, 5=boss)
+	    0       700     0       0.0     119.5   30.0    60.0    000 255 000
+
+
+//Enemy     type,   xPos,   yPos,   xV,     yV,     width,  height, R,  G,  B,  			//type:(0=player, 1=enemy, 2=movingPlanet, 3=stationaryPlanet, 4=planetLevelPortal, 5=boss)
+
+	    1       -700     0      0.0     -119.5  20       40      255 000 000       

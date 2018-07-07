@@ -1,0 +1,15 @@
+2000 2000 0 2	{width, height, nextLevel, nextLevel’s planet} {V(orbit) = sqrt(GM/r)}
+
+//Venus   type,   xPos,   yPos,   mass,   radius, R,  G,  B,  filePath				//type:(0=player, 1=enemy, 2=movingPlanet, 3=stationaryPlanet, 4=planetLevelPortal)
+
+	    3      0.0     0.0     100     400     202 164 061 {venus.gif}	
+
+
+//Player    type,   xPos,   yPos,   xV,     yV,     width,  height, R,  G,  B				//type:(0=player, 1=enemy, 2=movingPlanet, 3=stationaryPlanet, 4=planetLevelPortal)
+
+	    0       700     0       0.0     119.5   30.0    60.0    000 255 000
+
+
+//Enemy     type,   xPos,   yPos,   xV,     yV,     width,  height, R,  G,  B,  			//type:(0=player, 1=enemy, 2=movingPlanet, 3=stationaryPlanet, 4=planetLevelPortal)
+
+	    1       -700     0      0.0     -119.5  20       40      255 000 000    

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=LevelPortal
+comment1.params=nextLevel
+comment1.target=LevelPortal(int)
+comment2.params=e
+comment2.target=boolean\ checkCollide(Entity)
+comment3.params=
+comment3.target=int\ getNextLevel()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=
+comment5.target=double[]\ getNextSpawnLocation()
+numComments=6

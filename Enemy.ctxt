@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Enemy
+comment1.params=xPos\ yPos\ xV\ yV\ width\ height\ mapCol
+comment1.target=Enemy(double,\ double,\ double,\ double,\ double,\ double,\ java.awt.Color)
+comment2.params=c
+comment2.target=void\ shoot(Camera)
+comment3.params=time
+comment3.target=void\ recalculateVelocity(long)
+numComments=4
