@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=MovingPlanet
-comment1.params=xPos\ yPos\ xV\ yV\ mass\ radius\ filePath\ mapCol
-comment1.target=MovingPlanet(double,\ double,\ double,\ double,\ int,\ int,\ java.lang.String,\ java.awt.Color)
-comment1.text=\ precondition\ \:\ filePath\ is\ the\ ImageIcon,\ relative\ to\ "resources/actor_gifs/planet_gifs/"\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ mapCol\ is\ the\ color\ of\ the\ planet's\ icon\ on\ the\ map\n\ postcondition\:\ constructs\ a\ circular\ actor\ planet\ that\ moves\n
-numComments=2
